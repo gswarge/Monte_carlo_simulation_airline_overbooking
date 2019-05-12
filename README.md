@@ -10,3 +10,4 @@ so, the challenge is to identify how many tickets should an airline overbook, in
 
 This code can be used to identify the optimal tickets to overbook to maximise the profits based on the costs involved if a customer has to be turned back on account of overselling.
 
+Link to the Medium blog: https://medium.com/@gaurang.swarge/airline-ticket-overbooking-monte-carlo-simulation-9e276cc2bd8a 
