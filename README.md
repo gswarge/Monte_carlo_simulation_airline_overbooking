@@ -1,13 +1,15 @@
 
 # Monte Carlo Simulation of Airline Overbooking
 
-I recently read a simple and interesting blog post by Mira Khare, Melanie Huynh, Arni Sturluson, Cory Simon, Link : https://simonensemble.github.io/operations%20research/2018/07/24/airline-overbooking/
+I recently read a simple and neat blog post by Mira Khare, Melanie Huynh, Arni Sturluson, Cory Simon, [Link here.](https://simonensemble.github.io/operations%20research/2018/07/24/airline-overbooking/)
+Authors of the post, presented a way to optimise the no of tickets an airline should oversell to maximise their profits. They wrote the code in Julia, As i have been polishing my python skills, I thought it would be a good idea to code the same in python.
 
-As i have been polishing my python skills, I thought it would be a good idea to code the same in python.
+![Similation](/simulation_boxplot.png)
 
-As the blog post mentions, Airlines operate on razor thin margins, it is imperative that they maximise their profits as much as possible. Since, there is always a chance, that 100% of the customers do not turn up for their flights, Airlines overbook their planes, so as to maximise the profits they can make. 
-so, the challenge is to identify how many tickets should an airline overbook, in order to maximise their profits. 
+Airline business is a cut throat business, its one of those business where your supply side is limited (only 2 major aircraft manufacturers, Airbus and Boeing) and so is the client side (finite no of regular flying customers) plus you have rising fuel costs and stiff competition within the industry. The only differentiator for any airline operator from their competitor is the customer service that is provided by them to attract more customers from the finite pool.
 
-This code can be used to identify the optimal tickets to overbook to maximise the profits based on the costs involved if a customer has to be turned back on account of overselling.
+When airlines operate a flight on a route, they incur a fixed cost to oeprate the flight, and the only way they achieve maximum profit is when they manage to fully book the flight. But as we all know that there are always certain %ge of people who cancel their flights last minute, or do not show up for their flights. In scenario like this airline is loosing a certain percentage of profits ( or a chance of booking more profits in cases of no shows by the customer) when they fly with empty seats.
 
-Link to the Medium blog: https://medium.com/@gaurang.swarge/airline-ticket-overbooking-monte-carlo-simulation-9e276cc2bd8a 
+Read more at my blog [here.](https://gaurang.swarge.com/blog/airline-overbooking-monte-carlo-simulation)
+
+
