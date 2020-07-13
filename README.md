@@ -1,6 +1,7 @@
 
 # Monte Carlo Simulation of Airline Overbooking
 
+I recently read a simple and neat blog post by Mira Khare, Melanie Huynh, Arni Sturluson, Cory Simon, [Link here.](https://simonensemble.github.io/operations%20research/2018/07/24/airline-overbooking/)
 Authors of the post, presented a way to optimise the no of tickets an airline should oversell to maximise their profits. They wrote the code in Julia, As i have been polishing my python skills, I thought it would be a good idea to code the same in python.
 
 ![Similation](/simulation_boxplot.png)
